@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner {
+  display: flex;
+  margin: 30px;
+}
+
+.left{
+    min-width: 400px;
+
+}
+
+/* .duke, .peter{
+  width: 300px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+} */
+
+/* .lebron, .queen{
+  display: flex;
+  margin-top: 150px;
+width: 250px;
+border-radius: 10px;
+}
+*/
+.write{
+  writing-mode: vertical-rl;
+  
+} 
+
+/* .elizabeth{
+  writing-mode: vertical-lr;
+  padding-top: 150px;
+}
+
+.peterG{
+  writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+
+.lebronJ{
+  writing-mode: vertical-lr;
+  padding-top: 150px;
+  border-radius: 10px;
+}
+
+.kant{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.bilder {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.containerBilder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+img{
+  border-radius: 20px;
+}
+
+
+
+/* @media only screen and (min-width: 636px) {
+  .containerBilder{
+    width: 290px;
+    font-size: small;
+    padding-left: 50px;
+    
+  }
+} */
+
+@media  (max-width: 600px) {
+  .conteiner{
+    flex-direction: row;    
+  }
+}
+@media  (max-width: 200px) {
+  .conteiner{
+    flex-direction: column;
+    
+  }
+}
+
